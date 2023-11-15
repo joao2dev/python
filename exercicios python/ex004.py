@@ -1,0 +1,8 @@
+n = input('Digite algo: ')
+print('qual e o tipo dessa variavel? ',type(n))
+print('essa var tem espaços? ', n.isspace())
+print('e um numero? ', n.isdecimal())
+print('e um numero alphanumerico? ' , n.isalpha())
+print('tem letra minuscula? ', n.islower())
+print('tem letra minuscula? ', n.isupper())
+print('e capitalizado? ', n.istitle())
